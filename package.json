@@ -1,0 +1,10 @@
+{
+  "name": "lorem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lorem-ipsum": "^1.0.6",
+    "wegweg": "^0.17.0"
+  }
+}
