@@ -4,6 +4,13 @@ _ = require('wegweg')({
 
 lorem = require 'lorem-ipsum'
 
+if _.arg('help')
+  log """
+    Usage: ./ [sentence count]
+    Example: ./ 10
+  """
+  exit 0
+
 opt = {
   count: (do =>
     parts = process.argv
